@@ -12,18 +12,33 @@
     <sprite>sprites\player_gauche</sprite>
     <sprite>sprites\player_haut</sprite>
     <sprite>sprites\player_droite</sprite>
+    <sprite>sprites\keysSet</sprite>
   </sprites>
   <backgrounds name="background">
     <background>background\background0</background>
+    <background>background\menuBackground</background>
+    <background>background\scoresBackground</background>
   </backgrounds>
   <paths name="paths"/>
+  <scripts name="scripts">
+    <script>scripts\scr_menu.gml</script>
+    <script>scripts\newScore.gml</script>
+  </scripts>
+  <fonts name="fonts">
+    <font>fonts\menuFont</font>
+    <font>fonts\menuFont2</font>
+  </fonts>
   <objects name="objects">
     <object>objects\object_mur</object>
     <object>objects\object_player</object>
     <object>objects\clock</object>
+    <object>objects\object_menu</object>
+    <object>objects\object_scores</object>
   </objects>
   <rooms name="rooms">
+    <room>rooms\menuRoom</room>
     <room>rooms\game</room>
+    <room>rooms\scoresRoom</room>
   </rooms>
   <help>
     <rtf>help.rtf</rtf>
