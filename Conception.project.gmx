@@ -7,17 +7,22 @@
   <sounds name="sound"/>
   <sprites name="sprites">
     <sprite>sprites\mur</sprite>
-    <sprite>sprites\player</sprite>
-    <sprite>sprites\player_bas</sprite>
-    <sprite>sprites\player_gauche</sprite>
-    <sprite>sprites\player_haut</sprite>
-    <sprite>sprites\player_droite</sprite>
     <sprite>sprites\keysSet</sprite>
+    <sprite>sprites\hero</sprite>
+    <sprite>sprites\maton</sprite>
+    <sprite>sprites\mexicain</sprite>
+    <sprite>sprites\death</sprite>
+    <sprite>sprites\sprite6</sprite>
+    <sprite>sprites\sprite7</sprite>
+    <sprite>sprites\sprite8</sprite>
+    <sprite>sprites\sprite9</sprite>
+    <sprite>sprites\sprite10</sprite>
   </sprites>
   <backgrounds name="background">
     <background>background\background0</background>
     <background>background\menuBackground</background>
     <background>background\scoresBackground</background>
+    <background>background\prison_tileset</background>
   </backgrounds>
   <paths name="paths"/>
   <scripts name="scripts">
@@ -31,14 +36,22 @@
   <objects name="objects">
     <object>objects\object_mur</object>
     <object>objects\object_player</object>
-    <object>objects\clock</object>
+    <object>objects\score</object>
     <object>objects\object_menu</object>
     <object>objects\object_scores</object>
+    <object>objects\object_maton</object>
+    <object>objects\object_mexicain</object>
+    <object>objects\Hp_player</object>
+    <object>objects\reset</object>
+    <object>objects\game_start</object>
+    <object>objects\murInvisible</object>
+    <object>objects\spawner</object>
   </objects>
   <rooms name="rooms">
     <room>rooms\menuRoom</room>
     <room>rooms\game</room>
     <room>rooms\scoresRoom</room>
+    <room>rooms\arena</room>
   </rooms>
   <help>
     <rtf>help.rtf</rtf>
