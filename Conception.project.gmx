@@ -36,7 +36,7 @@
   <objects name="objects">
     <object>objects\object_mur</object>
     <object>objects\object_player</object>
-    <object>objects\score</object>
+    <object>objects\object_score</object>
     <object>objects\object_menu</object>
     <object>objects\object_scores</object>
     <object>objects\object_maton</object>
